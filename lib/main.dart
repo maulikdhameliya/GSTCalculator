@@ -42,7 +42,7 @@ class _GSTForm extends State<GSTForm> {
     return Scaffold(
       //resizeToAvoidBottomPadding: false,
       appBar: AppBar(
-        title: Text('Indian GST Calculator'),
+        title: Text('GST Calculator'),
       ),
       body: Container(
         margin: EdgeInsets.all(10.0),
@@ -194,7 +194,7 @@ class _GSTForm extends State<GSTForm> {
   }
 
   Widget getGSTIcon() {
-    AssetImage assetImage = AssetImage('images/gst.png');
+    AssetImage assetImage = AssetImage('images/icon.png');
     Image image = Image(image: assetImage, height: 125.0, width: 125.0);
     return Container(
       child: image,
