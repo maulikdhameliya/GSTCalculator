@@ -1,3 +1,3 @@
 # GST Calculator
 
-An application to quickly calculate GST in India
+An application to quickly calculate GST
